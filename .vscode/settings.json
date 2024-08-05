@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "parser.h": "c",
+        "socket.h": "c",
+        "stdlib.h": "c",
+        "structures.h": "c",
+        "memoria.h": "c",
+        "paquete.h": "c",
+        "kernel.h": "c",
+        "list.h": "c",
+        "stdint.h": "c",
+        "io.h": "c",
+        "pthread.h": "c",
+        "semaphore.h": "c",
+        "bitarray.h": "c",
+        "type_traits": "c",
+        "cpu.h": "c",
+        "environment_variables.h": "c",
+        "time.h": "c"
+    }
+}

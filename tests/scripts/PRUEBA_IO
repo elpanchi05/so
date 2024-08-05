@@ -1,0 +1,3 @@
+INICIAR_PROCESO ../tests/instructions/IO_A
+INICIAR_PROCESO ../tests/instructions/IO_B
+INICIAR_PROCESO ../tests/instructions/IO_C

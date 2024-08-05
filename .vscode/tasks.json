@@ -1,0 +1,65 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build memoria",
+            "type": "shell",
+            "command": "make", 
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}/memoria"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Generated task by VS Code."
+        },
+        {
+            "label": "build cpu",
+            "type": "shell",
+            "command": "make", 
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}/cpu"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Generated task by VS Code."
+        },
+        {
+            "label": "build kernel",
+            "type": "shell",
+            "command": "make", 
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}/kernel"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Generated task by VS Code."
+        },
+        {
+            "label": "build io",
+            "type": "shell",
+            "command": "make", 
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}/entradasalida"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Generated task by VS Code."
+        }
+    ]
+}

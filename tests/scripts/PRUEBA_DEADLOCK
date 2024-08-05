@@ -1,0 +1,4 @@
+INICIAR_PROCESO ../tests/instructions/LOCK_A
+INICIAR_PROCESO ../tests/instructions/LOCK_B
+INICIAR_PROCESO ../tests/instructions/LOCK_C
+INICIAR_PROCESO ../tests/instructions/LOCK_D

@@ -1,0 +1,101 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug MEMORIA",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/memoria/bin/memoria",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build memoria",
+            "miDebuggerPath": "/usr/bin/gdb", 
+            "logging": {
+                "engineLogging": true
+            }
+        },
+        {
+            "name": "Debug CPU",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/cpu/bin/cpu",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build cpu",
+            "miDebuggerPath": "/usr/bin/gdb", 
+            "logging": {
+                "engineLogging": true
+            }
+        },
+        {
+            "name": "Debug KERNEL",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/kernel/bin/kernel",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build kernel",
+            "miDebuggerPath": "/usr/bin/gdb", 
+            "logging": {
+                "engineLogging": true
+            }
+        },
+        {
+            "name": "Debug IO",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/entradasalida/bin/entradasalida",
+            "args": ["/home/utnso/Desktop/tp-2024-1c-La-Tercera/config/io.config", "Int1"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build io",
+            "miDebuggerPath": "/usr/bin/gdb", 
+            "logging": {
+                "engineLogging": true
+            }
+        }
+    ]
+}

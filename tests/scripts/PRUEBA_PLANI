@@ -1,0 +1,4 @@
+INICIAR_PROCESO ../tests/instructions/PLANI_1
+INICIAR_PROCESO ../tests/instructions/PLANI_2
+INICIAR_PROCESO ../tests/instructions/PLANI_3
+INICIAR_PROCESO ../tests/instructions/PLANI_4
